@@ -7,14 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // Toggle textarea availability using explicit attribute methods
   function toggleTextarea() {
-    // console.log(`modeAll.checked ${modeAll.checked}`);
     textarea.disabled = modeAll.checked;
-
-    // if (modeAll.checked) {
-    //   textarea.setAttribute('disabled', 'true');
-    // } else {
-    //   textarea.removeAttribute('disabled');
-    // }
   }
 
   modeAll.addEventListener('change', toggleTextarea);

@@ -1,4 +1,4 @@
-# Snap Tab Auto-Reloader
+# Crashed Tab Auto-Reloader
 Automatically reloads crashed tabs (Aw, Snap!) for selected sites or all domains and shows Chrome system notifications.
 
 ## To test

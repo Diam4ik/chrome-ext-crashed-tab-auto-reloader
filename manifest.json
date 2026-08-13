@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Crashed Tab Auto-Reloader",
+  "version": "1.0",
+  "description": "Automatically reloads crashed tabs (Aw, Snap!) for selected sites or all domains and shows Chrome system notifications.",
+  "permissions": ["tabs", "storage", "notifications"],
+  "background": {
+    "service_worker": "js/bg.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "img/2.png"
+  },
+  "icons": {
+    "16": "img/2.png",
+    "48": "img/2.png",
+    "128": "img/2.png"
+  }
+}
